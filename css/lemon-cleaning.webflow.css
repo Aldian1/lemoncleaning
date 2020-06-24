@@ -1015,6 +1015,13 @@ figcaption {
   background-size: auto, cover, 125px;
 }
 
+.hero-image.fogging {
+  background-image: url('../images/katarzyna-grabowska-dvdPiqndrdU-unsplash.jpg'), url('https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png');
+  background-position: 50% 50%, 0px 0px;
+  background-size: cover, 125px;
+  background-repeat: no-repeat, repeat;
+}
+
 .hero-text-wrapper {
   position: relative;
   z-index: 2;
@@ -1187,6 +1194,12 @@ figcaption {
   width: 50%;
   height: 100%;
   padding: 5%;
+}
+
+.service-wrap.alt {
+  width: 35%;
+  height: auto;
+  padding: 0%;
 }
 
 .intro {
@@ -1564,6 +1577,11 @@ figcaption {
   height: 90vh;
 }
 
+.image-5.cover {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 .contact-form-block-1 {
   width: 100%;
   margin-bottom: 4%;
@@ -1914,7 +1932,17 @@ figcaption {
   max-width: 40vw;
 }
 
-@media (max-width: 991px) {
+.background-video-3 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 10;
+  height: 100%;
+}
+
+@media screen and (max-width: 991px) {
   .button.nav {
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
@@ -2140,7 +2168,7 @@ figcaption {
   }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .card-wrap {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
@@ -2245,7 +2273,7 @@ figcaption {
   }
 }
 
-@media (max-width: 479px) {
+@media screen and (max-width: 479px) {
   .button {
     display: -webkit-box;
     display: -webkit-flex;
