@@ -2325,6 +2325,11 @@ figcaption {
     padding-top: 120px;
     padding-bottom: 80px;
   }
+  .hero-image.fogging {
+    height: auto;
+    padding-top: 110px;
+    padding-bottom: 80px;
+  }
   .hero-text-wrapper {
     width: 90%;
   }
@@ -2362,9 +2367,20 @@ figcaption {
     padding-right: 0%;
     padding-left: 0%;
   }
+  .carpet-cleaning-intro.reverse {
+    padding-top: 0%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
   .service-wrap {
     padding-right: 5%;
     padding-left: 5%;
+  }
+  .service-wrap.alt {
+    width: 100%;
   }
   .nav-link {
     background-color: #333;
@@ -2476,6 +2492,9 @@ figcaption {
   }
   .faq-col-right {
     min-height: auto;
+  }
+  .background-video-3 {
+    position: absolute;
   }
 }
 
